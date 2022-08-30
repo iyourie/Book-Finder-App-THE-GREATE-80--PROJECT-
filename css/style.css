@@ -1,0 +1,71 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #343433;
+}
+
+body {
+    background-color: rgb(240, 140, 41);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+input {
+    width: 400px;
+    outline: none;
+    padding: 6px;
+    box-shadow: 2px 2px 2px #343433;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px;
+    box-shadow: 2px 2px 2px #343433;
+    background-color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: #343433;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+img {
+    cursor: pointer;
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+    border: #343433 1px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+img:hover {
+    background-color: #343433;
+}
